@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
 export class PalindromoComponent {
   texto : string = '';
   
-
   isPalindromo() : boolean {
     let inverso = this.texto.split('').reverse().join('');
     return this.texto == inverso;
